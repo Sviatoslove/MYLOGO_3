@@ -1,0 +1,48 @@
+/*---------------------- 'Media Queries'-------------- */
+
+/* 992- 1200px */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .order {
+    margin-left: 0;
+  }
+  .list li {
+    width: 30%;
+  }
+  .form_head {
+    width: 34%;
+  }
+  .card_screen {
+    width: 60%;
+  }
+  .right_tit, .left_tit {
+    width: 45%;
+  }
+  .law, .end {
+    width: 10%;
+  }
+}
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 520px;
+  }
+}
+/* 320-576px  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
