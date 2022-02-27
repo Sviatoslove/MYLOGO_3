@@ -96,5 +96,7 @@
   .all_tit {
     flex-direction: column-reverse;
   }
-
+  .right_tit {
+    margin-bottom: 16px;
+  }
 }
